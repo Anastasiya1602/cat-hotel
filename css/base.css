@@ -1,0 +1,36 @@
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.button {  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  padding: 7px 7px 7px 30px;
+  border: 0 solid;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: black;
+  background-color:#FF7236;
+}
+
+.button__logo {
+  display: block;
+  padding: 8px;
+  Width:36px;
+  Height:36px;
+  border: 0 solid;
+  border-radius: 36px;
+  background-color: #FF7236;
+}
+
+.button__logo-img {
+  width: 21;
+  height: 18;
+}
