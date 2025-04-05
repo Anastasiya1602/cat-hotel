@@ -1,0 +1,38 @@
+.contacts {
+  display: flex;
+  padding-top: 80px;
+  max-width: 1400px;
+}
+
+.contacts-box {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  padding: 70px 110px 70px 180px;
+  background-color: #FAC663;
+}
+
+.contacts-title {
+  font-family: 'Rubik-Medium';
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.contact__box-subtitle {
+  font-family: 'Lato-Bold';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+}
+
+.contact__box-descrip {
+  font-family: 'Lato-Regular';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+}
+
+.contacts__map {
+  width: 60%;
+  height: 100%;
+}

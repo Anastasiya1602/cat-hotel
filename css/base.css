@@ -1,6 +1,6 @@
 .container {
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 1170px;
 }
 
 .button {  
@@ -11,7 +11,9 @@
   padding: 7px 7px 7px 30px;
   border: 0 solid;
   border-radius: 25px;
-  font-size: 16px;
+  font-family: 'Lato-Regular', 'Arial';
+  font-size: 16px;  
+  font-weight: 600;
   cursor: pointer;
 }
 
@@ -33,4 +35,39 @@
 .button__logo-img {
   width: 21;
   height: 18;
+}
+
+.carousel-nav, .reviews__nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  gap: 400px;
+  margin-bottom: 30px;
+}
+
+.carousel-indicator, .reviews__indicator {
+  Width: 12px;
+  Height: 12px;
+  border: 0 solid;
+  background-color:#E1E1E1;
+  border-radius: 12px;
+  margin-right: 12px;
+  cursor: pointer;
+}
+
+.active {
+  background-color: #FAC663;
+}
+
+.carousel-prev, .carousel-next,.reviews__prev, .reviews__next {
+  padding: 9px;
+  Width:36px;
+  Height:36px;
+  border: 0 solid;
+  border-radius: 19px;
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 12px #AD988F40;
+  color: #FF7236;
+  cursor: pointer;
 }

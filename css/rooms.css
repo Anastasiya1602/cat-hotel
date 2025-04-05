@@ -1,0 +1,92 @@
+.rooms {
+  position: relative;
+  margin-bottom: 143px;
+}
+
+.rooms__title {
+  margin-bottom: 70px;
+  text-align: center;
+  font-family: 'Rubik-Bold';
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.rooms__image-fish {
+  position: absolute;
+  z-index: -1;
+  top: 9px;
+  left: 0px;
+}
+
+.rooms__image-preview {
+  margin-left: 80px;
+  margin-bottom: 55px;
+}
+
+.carousel-container {
+  overflow: hidden;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.5s ease-in-out; /* Для плавной анимации */
+}
+
+.carousel-item {
+  flex-shrink: 0; /* Предотвращает сжатие элементов */
+  width: 100%; /* Каждый элемент занимает всю ширину контейнера */
+}
+
+.rooms__box {
+  position: absolute;
+  padding: 40px 117px 40px 100px;
+  top: 160px;
+  left: 52%;
+  background-color: #FFFFFF;
+  border-radius: 6px;
+  box-shadow: 0 0 25px #D0D0D040;
+  Line-height:100%;
+  Letter-spacing:0%;
+}
+
+.rooms__box-title {
+  font-family: 'Rubik-Medium';
+  font-weight: 500;
+  font-size: 22px;
+  margin-bottom: 30px;
+  line-height: 26px;
+}
+
+.button__rooms {
+  color: #FFFEFD;
+  background-color: #FF7236;
+}
+
+.rooms__box-list {
+  margin-bottom: 30px;
+  font-family: 'Lato-Regular', 'Arial';
+  font-size: 16px;  
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.rooms__box-list li::before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #FAC663;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.button__logo-rooms {
+  background-color: #FFFEFD;
+}
+
+
+
+
+
+
+

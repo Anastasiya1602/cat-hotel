@@ -1,10 +1,17 @@
 .about {
-  /* padding: 140px 98px 0px 98px; */
+  position: relative;
+  margin-bottom: 137px;
+}
+
+.about__wrapper {
   padding-top: 140px;
 }
+
 .about__title {
   text-align: center;
   margin-bottom: 70px;
+  font-family: 'Rubik-Bold';
+  font-weight: 700;
   font-size: 36px;
 }
 
@@ -17,18 +24,34 @@
 
 .about__flex-box {
   padding: 30px 49px 30px 30px;
-  /* padding-top: 30px; */
   width: 370px;
   height: 321px;
   border-radius: 8px;
   box-shadow: 0 0 25px #D0D0D040;
+  background-color: #FFFFFF;
+}
+
+.flex-box__img{
+  margin-bottom: 35px;
 }
 
 .flex-box__title {
+  font-family: 'Rubik-Medium';
+  font-weight: 500;
   font-size: 22px;
   margin-bottom: 15px;
 }
 
 .flex-box__descrip {
+  font-family: 'Lato-Regular', 'Arial'; 
+  font-weight: 400;
   font-size: 16px;
+  line-height: initial;
+}
+
+.about__img {
+  position: absolute;
+  top: 11px;
+  right: 0;
+  z-index: -1;
 }

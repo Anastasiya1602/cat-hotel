@@ -7,11 +7,10 @@
   <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body> 
+
   <header class="container">
     <div class="container-flex">
-
       <img src="./images/лого.png" alt="logo" class="logo">
-
       <nav class="navigation">
         <ul class="navigation-list">
           <li class="navigation-list__item">
@@ -36,14 +35,11 @@
           </li>
         </ul>
       </nav>
-
     </div>
   </header>
 
   <main class="main">
-
     <div class="container main__container">
-
       <div class="main__box">
         <span class="main__city">Санкт-Петербург</span>
         <h1 class="main__title">Котейка</h1>
@@ -55,60 +51,227 @@
           </div>          
         </button>
       </div>
-
-    </div>
-    
+    </div>    
   </main>
 
   <section class="container about">
-    <h2 class="about__title">
-      Почему мы?      
+    <div class="about__wrapper">
+      <h2 class="about__title">
+        Почему мы?      
+      </h2>
+      <div class="about__flex">
+        <div class="about__flex-box">
+          <img src="./images/иконка.png" alt="" class="flex-box__img">
+          <h2 class="flex-box__title">Комфортная температура</h2>
+          <p class="flex-box__descrip">Во всех номерах поддерживается комфортная температура в пределах
+            23 - 25 градусов. В каждом номере можно дополнительно отрегулировать температуру. </p>
+        </div>
+        <div class="about__flex-box">
+          <img src="./images/иконка (1).png" alt="" class="flex-box__img">
+          <h2 class="flex-box__title">Видеонаблюдение</h2>
+          <p class="flex-box__descrip">Мы предоставляем доступ в нашу систему. Вы сможете следить
+            за своим питомцем со своего смартфона или компьютера.</p>
+        </div>
+        <div class="about__flex-box">
+          <img src="./images/иконка (2).png" alt="" class="flex-box__img">
+          <h2 class="flex-box__title">Услуги Зоотакси</h2>
+          <p class="flex-box__descrip">Мы приедем за вашим питомцем в любой район Санкт-Петербурга.</p>
+        </div>
+        <div class="about__flex-box">
+          <img src="./images/иконка (3).png" alt="" class="flex-box__img">
+          <h2 class="flex-box__title">Сбалансированное питание</h2>
+          <p class="flex-box__descrip">Вы можете привезти свой корм
+            или доверить рацион своего
+            питомца нашим профессионалам.</p>
+        </div>
+        <div class="about__flex-box">
+          <img src="./images/иконка (4).png" alt="" class="flex-box__img">
+          <h2 class="flex-box__title">Ежедневные прогулки</h2>
+          <p class="flex-box__descrip">По вашему желанию мы выгуливаем вашего питомца два раза в день
+            на специализированной закрытой территории.</p>
+        </div>
+        <div class="about__flex-box">
+          <img src="./images/иконка (5).png" alt="" class="flex-box__img">
+          <h2 class="flex-box__title">Лучшие ветеринары</h2>
+          <p class="flex-box__descrip">В гостинице 24 часа дежурит ветеринарный врач, который окажет любую помощь в случае необходимости.</p>
+        </div>
+      </div>
+    </div>    
+    <img src="./images/paw.png" alt="" class="about__img">
+  </section>
+
+  <section class="container rooms">
+    <h2 class="rooms__title">Номера</h2>
+    <img src="./images/fish.png" alt="" class="rooms__image-fish">
+
+    <div class="carousel-container">
+      <div class="carousel">        
+        <div class="carousel-track">
+
+          <div class="carousel-item">
+            <img src="./images/cat1.jpg" alt="" class="rooms__image-preview">
+          </div>
+
+          <div class="carousel-item">
+            <img src="./images/cat3.jpg" alt="" class="rooms__image-preview">  
+          </div>
+
+          <div class="carousel-item">
+            <img src="./images/cat2.jpg" alt="" class="rooms__image-preview">
+          </div>
+
+          <!-- <div class="carousel-item">
+            <img src="./images/cat1.jpg" alt="" class="rooms__image-preview">
+          </div>
+
+          <div class="carousel-item">
+            <img src="./images/cat3.jpg" alt="" class="rooms__image-preview">  
+          </div>
+
+          <div class="carousel-item">
+            <img src="./images/cat2.jpg" alt="" class="rooms__image-preview">
+          </div> -->
+        </div>
+      </div>
+        <div class="rooms__box">
+            <h2 class="rooms__box-title"></h2>
+            <ul class="rooms__box-list"></ul>
+            <button class="button button__rooms">
+              Забронировать
+              <div class="button__logo button__logo-rooms">
+                <img class="button__logo-img" src="./images/lapka2.png">
+              </div>
+            </button>
+        </div>
+
+      <div class="carousel-nav">
+        <div class="carousel-indicators">
+          <button class="carousel-indicator active">
+          </button>
+          <button class="carousel-indicator"></button>
+          <button class="carousel-indicator"></button>
+        </div>
+
+        <div class="carousel-preview">
+          <button class="carousel-prev">&#10094;
+          </button>
+        <button class="carousel-next">&#10095;
+        </button>
+        </div>  
+      </div>
+    </div>  
+  </section>
+
+  <section class="container reviews">
+    <img src="./images/paw (1).png" class="reviews__img">
+    <h2 class="reviews__title">
+      Отзывы
     </h2>
-    <div class="about__flex">
-      <div class="about__flex-box">
-        <img src="./images/иконка.png" alt="" class="flex-box__img">
-        <h2 class="flex-box__title">Комфортная температура</h2>
-        <p class="flex-box__descrip">Во всех номерах поддерживается комфортная температура в пределах
-          23 - 25 градусов. В каждом номере можно дополнительно отрегулировать температуру. </p>
+
+    <div class="reviews__box reviews__wrapper"> 
+      <div class="reviews__box-item">
+        <img class="reviews__marks" src="./images/marks.png">
+        <p class="reviews__descrip">
+          Первый раз пришлось оставить нашего котика
+          в гостинице, очень переживали. Администратор Мария каждый день высылала нам фото нашего питомца, рассказывала, как он себя чувствует.
+          И мы и котик остались очень довольны!
+            <span>Валерия Гришаева</span>
+            <span>15 ноября, 2019</span>
+        </p>
       </div>
-      <div class="about__flex-box">
-        <img src="./images/иконка (1).png" alt="" class="flex-box__img">
-        <h2 class="flex-box__title">Видеонаблюдение</h2>
-        <p class="flex-box__descrip">Мы предоставляем доступ в нашу систему. Вы сможете следить
-          за своим питомцем со своего смартфона или компьютера.</p>
+
+      <div class="reviews__box-item">
+        <img class="reviews__marks" src="./images/marks.png">
+        <p class="reviews__descrip">
+          Гостиницу для питомцев нам посоветовали друзья. Они всегда оставляют здесь своего кота, когда уезжают. В “Котейке” очень хорошо заботятся о питомцах, в гостинице очень чисто. Всем рекомендую! Будем обращаться еще.
+            <span>Екатерина Минаева</span>
+            <span>10 октября, 2019</span>
+        </p>        
       </div>
-      <div class="about__flex-box">
-        <img src="./images/иконка (2).png" alt="" class="flex-box__img">
-        <h2 class="flex-box__title">Услуги Зоотакси</h2>
-        <p class="flex-box__descrip">Мы приедем за вашим питомцем в любой район Санкт-Петербурга.</p>
+
+      <div class="reviews__box-item">
+        <img class="reviews__marks" src="./images/marks.png">
+        <p class="reviews__descrip">
+          Мой кот — настоящая привереда, угодить ему сложно. У меня были особые требования к уходу за ним, и “Котейка” отлично справились. Я часто наблюдал по видео за питомцем со своего телефона, это очень удобно. 
+            <span>Павел Нечаев</span>
+            <span>12 сентября, 2019</span> 
+        </p>        
       </div>
-      <div class="about__flex-box">
-        <img src="./images/иконка (3).png" alt="" class="flex-box__img">
-        <h2 class="flex-box__title">Сбалансированное питание</h2>
-        <p class="flex-box__descrip">Вы можете привезти свой корм
-          или доверить рацион своего
-          питомца нашим профессионалам.</p>
+
+    </div>
+    <div class="reviews__nav">
+      <div class="reviews__indicators">
+        <button class="reviews__indicator active">
+        </button>
+        <button class="reviews__indicator"></button>
+        <button class="reviews__indicator"></button>
       </div>
-      <div class="about__flex-box">
-        <img src="./images/иконка (4).png" alt="" class="flex-box__img">
-        <h2 class="flex-box__title">Ежедневные прогулки</h2>
-        <p class="flex-box__descrip">По вашему желанию мы выгуливаем вашего питомца два раза в день
-          на специализированной закрытой территории.</p>
+
+      <div class="reviews__preview">
+        <button class="reviews__prev">&#10094;
+        </button>
+      <button class="reviews__next">&#10095;
+      </button>
+      </div>  
+    </div>
+  </section>
+
+  <section class="container contacts">
+    <div class="contacts-box">
+      <h2 class="contacts-title">
+        Как нас найти
+      </h2>
+      <div class="contact__box">
+        <h3 class="contact__box-subtitle">
+          Адрес
+        </h3>
+        <p class="contact__box-descrip">
+          Санкт-Петербург, <br>ул Большая Конюшенная, д 19
+        </p>
       </div>
-      <div class="about__flex-box">
-        <img src="./images/иконка (5).png" alt="" class="flex-box__img">
-        <h2 class="flex-box__title">Лучшие ветеринары</h2>
-        <p class="flex-box__descrip">В гостинице 24 часа дежурит ветеринарный врач, который окажет любую помощь в случае необходимости.</p>
+      <div class="contact__box">
+        <h3 class="contact__box-subtitle">
+          Режим работы
+        </h3>
+        <p class="contact__box-descrip">
+          Ежедневно, с 9:00 до 20:00
+        </p>
+      </div>
+      <div class="contact__box">
+        <h3 class="contact__box-subtitle">
+          Телефон
+        </h3>
+        <p class="contact__box-descrip">
+          8 (800) 333-55-99
+        </p>
+      </div>
+      <div class="contact__box">
+        <h3 class="contact__box-subtitle">
+          E-mail
+        </h3>
+        <p class="contact__box-descrip">
+          info@cat-hotel.ru
+        </p>
+      </div>
+      <div class="contact__box">
+        <h3 class="contact__box-subtitle">
+          Социальные сети
+        </h3>
+        <a href="" class="contact__box-link">
+        </a>
+        <a href="" class="contact__box-link"></a>
+        <a href="" class="contact__box-link"></a>
       </div>
     </div>
-    <img src="./images/paw.png" alt="" class="about__img">
+    <div class="contacts__map">
+      <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A85347a2daaf7e999948d2e847c6dcd4d6279857317b05fee01cc7dd6a7df20e7&amp;source=constructor" width="100%" height="500" frameborder="0">
+      </iframe>
+    </div>
   </section>
 
   <footer class="container">
     <div class="container-flex">
-
       <img src="./images/лого.png" alt="logo" class="logo">
-
       <nav class="navigation">
         <ul class="navigation-list">
           <li class="navigation-list__item">
@@ -133,9 +296,16 @@
           </li>
         </ul>
       </nav>
-
     </div>
   </footer>
-  
+  <hr class="linea">
+  <section class="container footer__bottom">
+      <p class="footer__bottom-text">
+        Ⓒ 2019 Все права защищены
+      </p>
+      <a href="" class="footer__bottom-link">Политика конфиденциальности</a>
+  </section>
+  <script src="./scripts/carousel.js"></script>
+  <script src="./scripts/reviews.js"></script>
 </body>
 </html>

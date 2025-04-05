@@ -1,5 +1,5 @@
 .main {
-  background-image: url('../images/Group\ 51.jpg');
+  background-image: url('../images/perro.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover
@@ -11,21 +11,21 @@
 
 .main__city {
   margin-bottom: 15px;
+  font-family: 'Lato-Regular', 'Arial';
+  font-size: 14x;  
+  font-weight: 400;
 }
 
 .main__title {
   margin-bottom: 25px;
-  font-family: 'Rubik';
+  font-family: 'Rubik-Bold';
   font-weight: 700;
   font-size: 62px;
-  line-height: 100%;
-  letter-spacing: 0%;
-  vertical-align: middle;
 }
 
 .main__subtitle {
   margin-bottom: 40px;
-  font-family: 'Lato';
+  font-family: 'Lato-Regular', 'Arial';
   font-weight: 500;
   font-size: 20px;
   line-height: 100%;
